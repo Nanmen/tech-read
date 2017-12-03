@@ -15,7 +15,6 @@ exports.parseList = function (lists) {
         let originUrl = origin + titleObj.attr('href');
         let metaAuthor = $(list).find('.author a:first-child').text();
         let metaTime;
-        debugger;
         console.log($(list).find('.author'));
         if (typeof($(list).find('.author .split')[0]) !== 'undefined') {
             //metaTime = $(list).find('.author .split')[0].nextSibling.nodeValue;
