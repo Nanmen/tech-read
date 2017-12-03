@@ -1,0 +1,14 @@
+.idea/
+
+node_modules
+public/assets/
+assets
+dist
+npm-debug.log
+*.log
+.DS_Store
+Thumbs.db
+*.db
+test.js
+test
+dist
