@@ -15,10 +15,7 @@ exports.parseList = function (lists) {
         let originUrl = origin + titleObj.attr('href');
         let metaAuthor = $(list).find('.author a:first-child').text();
         let metaTime;
-        console.log($(list).find('.author'));
-        if (typeof($(list).find('.author .split')[0]) !== 'undefined') {
-            //metaTime = $(list).find('.author .split')[0].nextSibling.nodeValue;
-        }
+        metaTime = $(list).find('.author span').text();
         //let metaTime = $(list).find('.author .split')[0].nextSibling.nodeValue;
         let avatarUrl = $(list).find('.author img').attr('src');
         let a = $(list).find('.author a')[1];
